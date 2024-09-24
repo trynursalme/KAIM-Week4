@@ -1,0 +1,23 @@
+
+POST http://127.0.0.1:8000/predict/
+Content-Type: application/json
+
+{
+  "customers": 100,
+  "open": 1,
+  "promo": 1,
+  "day_of_week": 5,
+  "state_holiday": 0,
+  "school_holiday": 1,
+  "weekday": 1,
+  "weekend": 0,
+  "days_to_holiday": 10,
+  "days_after_holiday": 5,
+  "beginning_of_month": 1,
+  "mid_month": 0,
+  "end_of_month": 0,
+  "month": 9,
+  "is_holiday": 0,
+  "store": 1
+}
+
